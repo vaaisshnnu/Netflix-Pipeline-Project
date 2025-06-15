@@ -50,7 +50,8 @@ Netflix-Pipeline-Project/
 
 
 📷 UI Preview
-  ![image](https://github.com/user-attachments/assets/172eda23-f3a8-4747-9f19-9444ce177711)
+  
+![UI](https://github.com/user-attachments/assets/7b856def-6d5b-4038-aaf2-a132d62d644d)
 
 
 
