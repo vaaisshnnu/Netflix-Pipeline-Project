@@ -1,0 +1,24 @@
+pipeline {
+    agent any
+    
+    tools {
+        maven 'maven'
+    }
+    stages {
+        stage('Getting Code') {
+            steps {
+                git 'https://github.com/vaaisshnnu/Netflix-Pipeline-Project.git'
+            }
+        }
+        stage('Building the Code') {
+            steps {
+                sh 'mvn clean package -T 1C -DskipTests'
+            }
+        }
+        stage('Deploying the Code') {
+            steps {
+                deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'tomcat-creds', path: '', url: 'http://13.204.81.26:9000/')], contextPath: 'Netflix App Deployment', war: '**/*.war'
+            }
+        }
+    }
+}
