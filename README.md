@@ -50,16 +50,9 @@ Netflix-Pipeline-Project/
 
 
 📷 UI Preview
-![image](https://github.com/user-attachments/assets/172eda23-f3a8-4747-9f19-9444ce177711)
+  ![image](https://github.com/user-attachments/assets/172eda23-f3a8-4747-9f19-9444ce177711)
 
 
-📡 Jenkins Deployment Notes
-Remote GitHub repo: https://github.com/vaaisshnnu/Netflix-Pipeline-Project.git
 
-Build Tool: Maven -T 1C -DskipTests
-
-WAR Generated: /target/NETFLIX-1.2.2.war
-
-Deployment: Jenkins WAR Deploy Plugin → Remote Tomcat 9.x
 
 🌟 Star this repo if you like it!
