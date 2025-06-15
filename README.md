@@ -31,7 +31,7 @@ This is a simulated **Netflix Sign-In Clone Web App** built using Java and JSP, 
 ```
 1. Checkout GitHub Repository
 2. Build Project with Maven (Multithreaded)
-3. Generate WAR Artifact (Netflix-1.2.2.war)
+3. Generate WAR Artifact (Netflix-2.4.war)
 4. Deploy WAR to Remote Tomcat Container
 
 
@@ -49,11 +49,12 @@ Netflix-Pipeline-Project/
     └── NETFLIX-1.2.2.war
 
 
+
+
+
+
 📷 UI Preview
-  
-![UI](https://github.com/user-attachments/assets/7b856def-6d5b-4038-aaf2-a132d62d644d)
-
-
+  ![UI](https://github.com/user-attachments/assets/b1bfea9a-8367-41d3-a41f-488697795c9c)
 
 
 🌟 Star this repo if you like it!
